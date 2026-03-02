@@ -4,10 +4,6 @@ on:
   pull_request:
     types: [opened, synchronize, ready_for_review, labeled]
 
-permissions:
-  issues: write
-  pull-requests: write
-
 jobs:
   evaluate:
     runs-on: ubuntu-latest
